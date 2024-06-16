@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<section class="search-form">
+    <h2>Find a Local Professional</h2>
+    <form action="/results" method="POST">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        
+        <label for="domain">Domain (e.g., Plumber, Electrician, Carpenter):</label>
+        <input type="text" id="domain" name="domain" required>
+        
+        <button type="submit">Search</button>
+    </form>
+</section>
+{% endblock %}

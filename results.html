@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<section class="search-results">
+    <h2>Search Results for {{ domain }} in {{ location }}</h2>
+    <ul>
+        {% for prof in professionals %}
+        <li>{{ prof.name }} - {{ prof.location }} - {{ prof.domain }}</li>
+        {% else %}
+        <li>No professionals found for the given criteria.</li>
+        {% endfor %}
+    </ul>
+    <p><a href="/">Back to Search</a></p>
+</section>
+{% endblock %}

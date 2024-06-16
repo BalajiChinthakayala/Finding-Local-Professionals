@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image:url(https://img.freepik.com/free-vector/construction-workers-builder-engineer-technician-vector-flat-illustration-people-working-building-industry-professional-repairman-architect-house-painter-foreman_107791-10644.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1718236800&semt=ais_user)
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+.search-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.search-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-form label {
+    margin-bottom: 5px;
+}
+
+.search-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-results {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-results li {
+    margin-bottom: 10px;
+}
